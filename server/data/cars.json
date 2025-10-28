@@ -1,0 +1,22 @@
+[
+  { "id": 1, "make": "Toyota", "model": "Camry", "year": 2020, "price": 4532987 },
+  { "id": 2, "make": "Honda", "model": "Civic", "year": 2019, "price": 9876543 },
+  { "id": 3, "make": "Ford", "model": "Mustang", "year": 2021, "price": 1234567 },
+  { "id": 4, "make": "Chevrolet", "model": "Malibu", "year": 2018, "price": 7654321 },
+  { "id": 5, "make": "BMW", "model": "3 Series", "year": 2022, "price": 2345678 },
+  { "id": 6, "make": "Mercedes-Benz", "model": "C-Class", "year": 2021, "price": 8765432 },
+  { "id": 7, "make": "Audi", "model": "A4", "year": 2020, "price": 3210987 },
+  { "id": 8, "make": "Volkswagen", "model": "Passat", "year": 2017, "price": 6789012 },
+  { "id": 9, "make": "Hyundai", "model": "Elantra", "year": 2019, "price": 5678901 },
+  { "id": 10, "make": "Kia", "model": "Optima", "year": 2018, "price": 1987654 },
+  { "id": 11, "make": "Nissan", "model": "Altima", "year": 2020, "price": 9012345 },
+  { "id": 12, "make": "Subaru", "model": "Outback", "year": 2021, "price": 4321098 },
+  { "id": 13, "make": "Mazda", "model": "Mazda6", "year": 2019, "price": 7890123 },
+  { "id": 14, "make": "Lexus", "model": "ES 350", "year": 2022, "price": 2109876 },
+  { "id": 15, "make": "Tesla", "model": "Model 3", "year": 2023, "price": 8901234 },
+  { "id": 16, "make": "Volvo", "model": "S60", "year": 2020, "price": 3456789 },
+  { "id": 17, "make": "Jeep", "model": "Grand Cherokee", "year": 2018, "price": 6543210 },
+  { "id": 18, "make": "Dodge", "model": "Charger", "year": 2017, "price": 1765432 },
+  { "id": 19, "make": "Ram", "model": "1500", "year": 2021, "price": 9654321 },
+  { "id": 20, "make": "Porsche", "model": "911", "year": 2024, "price": 2876543 }
+]

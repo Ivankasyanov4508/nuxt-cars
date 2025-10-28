@@ -4,21 +4,37 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
+    "build:spa": "nuxt build --spa",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "pm2:start": "pm2 start .output/server/index.mjs",
+    "pm2:stop": "pm2 stop nuxt-app",
+    "cleanup": "nuxt cleanup",
+    "lintfix": "eslint --fix",
+    "prettier": "prettier --write .",
+    "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "nuxt": "^3.19.2",
+    "@mdi/font": "^7.4.47",
+    "@nuxt/eslint": "^1.9.0",
+    "@pinia/nuxt": "^0.10.0",
+    "nuxt": "^3.8.0",
+    "pinia": "^3.0.3",
+    "pinia-plugin-persistedstate": "^4.5.0",
     "vue": "^3.5.21",
-    "vue-router": "^4.5.1"
+    "vue-router": "^4.5.1",
+    "vuetify-nuxt-module": "^0.18.7"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^1.9.0",
+    "@types/node": "^24.5.2",
     "eslint": "^9.36.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
-    "prettier": "^3.6.2"
+    "prettier": "^3.6.2",
+    "sass-embedded": "^1.93.2",
+    "vue-tsc": "^3.0.8"
   }
 }
